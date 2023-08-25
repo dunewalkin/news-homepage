@@ -155,6 +155,7 @@ ul {
     background-image: url("../assets/images/icon-menu.svg");
     background-repeat: no-repeat;
     border: none;
+    cursor: pointer;
   }
 }
 
