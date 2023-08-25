@@ -1,0 +1,52 @@
+@use "../abstracts" as *;
+
+
+.heading {
+   
+   &__xl {
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+      font-weight: $fw-black;
+      color: $clr-neutral-4;
+
+      @include mq(medium) {
+         font-size: 2.5rem;
+         line-height: 2.5rem;
+      }
+   }
+
+   &__l {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      font-weight: $fw-bold;
+      color: $clr-primary-1;
+
+      @include mq(medium) {
+         font-size: 2rem;
+         line-height: 2rem;
+      }
+   }
+
+   &__m {
+      font-size: 2rem;
+      line-height: 2rem;
+      font-weight: $fw-bold;
+      color: $clr-neutral-2;
+    }
+
+   &__s {
+      font-size: 1.25rem;
+      line-height: 1.5rem;
+      font-weight: $fw-black;
+      color: $clr-neutral-1;
+   }
+
+   &__xs {
+      font-size: 1.125rem;
+      line-height: 1.5rem;
+      font-weight: $fw-black;
+      color: $clr-neutral-4;
+   }
+}
+
+

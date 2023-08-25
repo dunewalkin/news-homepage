@@ -1,0 +1,18 @@
+@use "../abstracts" as *;
+
+.main-grid {
+   @include min-mq (medium) {
+      display: grid;
+      gap: 1.88rem;
+      grid-template-columns: repeat(3, 1fr);
+   }
+}
+
+.grid-col-span-2 {
+   grid-column: span 2;
+}
+
+.grid-row-span-2 {
+   grid-column-start: 3;
+   grid-row: 1/3;
+}

@@ -1,0 +1,33 @@
+@use "../abstracts" as *;
+
+body {
+   font-family: $font-family-default;
+   font-size: 0.9375rem;
+   font-weight: $fw-regular;
+   line-height: 1.625rem; 
+   color: var(--clr-neutral-3);
+   background-color: $clr-neutral-1;
+
+   display: grid;
+   place-content: center;
+   position: relative;
+
+   overflow-x: hidden;
+}
+
+.container {
+   max-width: 69.375rem;
+   padding: 0 1rem;
+}
+
+a {
+   text-decoration: none;
+}
+
+li {
+   list-style: none;
+}
+
+ul {
+   padding: 0;
+}
